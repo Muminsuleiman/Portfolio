@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Gwendolyn:wght@400;700&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+    <link href="dist/output.css" rel="stylesheet"/>
+</head>
+<body>
+ <body class="font-nunito">
+    <!-- intro section -->
+    <div
+      class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden"
+    >
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 z-10 dark:bg-slate-900" style="background-color: #8C52FF;">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="text-2xl text-indigo-900 text-white" style="font-family: 'Calligraffitti', cursive; font-size: xx-large;">MieJ</span>
+            
+          </div>
+          <ul class="hidden md:flex space-x-10 text-white dark:text-gray-100 font-bold text-sm uppercase">
+            <li class="hover:text-gray-300">
+              <a href="#">HOME</a>
+            </li>
+            <li class="hover:text-gray-300">
+              <a href="#about">OVER MIJ</a>
+            </li>
+            <li class="hover:text-gray-300">
+              <a href="#services">Studie & WERK</a>
+            </li>
+            <li class="hover:text-gray-300">
+              <a href="#works">HOBBIES</a>
+            </li>
+            <li class="hover:text-gray-300">
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
+          
+          <img
+            id="moon"
+            src="./img/moon.png"
+            class="hidden md:block w-5 cursor-pointer"
+            alt=""
+          />
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-white"></div>
+            <div class="w-6 h-0.5 bg-white"></div>
+            <div class="w-6 h-0.5 bg-white"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
+          >
+            <li>
+              <a id="hLink" href="#">Home</a>
+            </li>
+            <li>
+              <a id="hLink" href="#about">Over mij</a>
+            </li>
+            <li>
+              <a id="hLink" href="#services">Studie & werk</a>
+            </li>
+            <li>
+              <a id="hLink" href="#works">Hobbies</a>
+            </li>
+            <li>
+              <a id="hLink" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- intro content -->
+      <!-- image -->
+      <img
+        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-10/50 object-cover"
+        src="./img/contact-pic.png"
+        alt=""
+        style="width: 55%; right: 50%; bottom: -100px;"
+      />
+      <img
+        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-10/50 object-cover"
+        src="./img/element3.png"
+        alt=""
+        style="width: 30%; left: 67rem; bottom: -50px;"
+      />
+  
+      <!-- square -->
+      <div
+        class="hidden lg:block absolute -bottom-2/4 right-1/4 mx-auto w-big h-big bg-indigo-900 rounded-md -z-10"
+      ></div>
+      <!-- texts -->
+      <div
+        class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-0 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3"
+        style="left: 800px;"
+      >
+        <h1 class="text-4xl font-bold text-indigo-900">Welkom op mijn portfolio!</h1>
+        <p class="text-gray-400">
+          Ik ben een Software Developer student aan het Techniek College Rotterdam. Enthousiast over technologie en creatief ontwerp,
+           met basiservaring in HTML, CSS, PHP, MySQL & JavaScript.
+        </p>
+        <a
+          class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
+          href="#contact"
+          >Neem contact op!</a
+        >
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="px-10 dark:bg-slate-900">
+      <div
+        class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+      >
+        <!-- left -->
+        <div class="relative">
+          <img
+            class="h-1/4 absolute top-0 left-0 -z-10"
+            src="./img/dots.png"
+            alt=""
+          />
+          <div class="h-full rounded-full overflow-hidden">
+            <img src="./img/portrait.png" alt="" />
+          </div>
+        </div>
+        <!-- right -->
+        <div class="my-auto flex flex-col gap-3">
+          <h1 class="text-indigo-600 font-bold">OVER MIJ</h1>
+          <h1 class="text-3xl font-medium dark:text-white">Mumin Suleiman</h1><h1 class="text-gray-400">10-09-2004</h1>
+            <h1 class="text-2xl font-medium dark:text-white">
+              Het bouwen van websites en experimenteren met diverse ontwerpprojecten geeft me veel plezier. De combinatie van technologie en creativiteit maakt het voor mij nog aantrekkelijker. Deze passie heeft me gemotiveerd om software development te gaan studeren aan het Techniek College Rotterdam.</h1>
+            <h1 class="text-2xl font-medium dark:text-white">
+              Mijn hobbies zijn tekenen, voetballen, fotografie en bewerken van video's. Mijn doel is een succesvolle carrière op te bouwen in technologie en creatief ontwerp.
+          </h1>
+          <h2 class="font-medium">HTML/CSS</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="font-medium">Javascript</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="font-medium">PHP</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="font-medium">MySQL</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- services -->
+    <div id="services" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold text-center">STUDIE</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Tijdens mijn studie heb ik veel geleerd en waardevolle kennis opgebouwd door middel van verschillende opdrachten en projecten.
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+          <img class="w-10" src="./img/icon.png" alt="" />
+          <h1 class="font-medium text-lg dark:text-white">Twitter Clone</h1>
+          <p class="text-gray-400">
+            Dit project is een eenvoudige kloon van Twitter, gebouwd met HTML, CSS, JavaScript, PHP en MySQL. Het doel is om de kernfunctionaliteiten van Twitter na te bootsen, zoals het plaatsen van tweets, het volgen van gebruikers en het liken van berichten.
+          </p>
+          <a class="text-indigo-600 font-semibold text-sm" href="https://github.com/Muminsuleiman/Twitter-clone" target="_blank"
+              >Source repository</a>
+        </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+             <img class="w-10" src="./img/icon.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Opendag TCR</h1>
+            <p class="text-gray-400">
+              
+              Dit project is een interactieve website gemaakt voor de Open Dag van Techniek College Rotterdam. Het is gebouwd met HTML, CSS en JavaScript en biedt gedetailleerde informatie over de school, opleidingen en het programma van de Open Dag.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://github.com/Muminsuleiman/Opendag-TCR" target="_blank"
+              >Source repository</a>
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/icon.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Portfolio website</h1>
+            <p class="text-gray-400">
+              Dit is mijn eerste project een portfolio, gebouwd met HTML en CSS, markeert mijn introductie in software development.
+              <br>Ik leerde hoe ik aantrekkelijke en functionele webpagina's kan maken.
+            </p>
+
+            <a class="text-indigo-600 font-semibold text-sm" href="https://github.com/Muminsuleiman/my-portfolio-website" target="_blank"
+              >Source repository</a>
+            
+          </div>
+        </div>
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">WERKERVARING</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            In de afgelopen jaren heb ik waardevolle ervaring opgebouwd.
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/icon.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Sports World</h1>
+            <p class="text-gray-400">
+              
+Als verkoopmedewerker in de schoenenafdeling bied ik klanten advies en reken ik ook af bij de kassa, terwijl ik ervoor zorg dat de winkel netjes blijft.
+            </p>
+            <span class="text-indigo-600 font-semibold text-sm">Juni 2024 - heden</span>
+          </div>
+          <!-- card -->
+                    <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/icon.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Perry Sports</h1>
+            <p class="text-gray-400">
+              Als Sales Assistent help ik klanten met aankopen, afrekenen, adviseren over schoenen, kleding en meer, en zorg ik voor een nette winkelomgeving.
+            </p>
+                <span class="text-indigo-600 font-semibold text-sm">Juni 2023 - Maart 2024</span>
+          </div>
+          <!-- card -->
+          <div
+          class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+        >
+          <img class="w-10" src="./img/icon.png" alt="" />
+          <h1 class="font-medium text-lg dark:text-white">Action B.V.</h1>
+          <p class="text-gray-400">
+            Als vulploegmedewerker zorg ik samen met mij collega's dat producten in de winkel altijd perfect gevuld en gespiegeld is.
+          </p>
+          <span class="text-indigo-600 font-semibold text-sm">Juli 2022 - December 2023</span>
+          </div>
+        </div>
+        </div>
+    <!-- works -->
+    <div id="works" class="py-40 dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">HOBBIES</h1>
+          <h1 class="text-3xl dark:text-white">Designs & Projecten</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            In mijn vrije tijd werk ik aan veel projecten en bewerk ik foto's en video's van dingen die mij interesseren, zowel voor klanten als voor mezelf.
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+            <img src="./img/forever chasing dreams.png" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+          <img src="./img/butterfly.png" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+            <img src="./img/travisscott.png" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+            <img src="./img/popedsnkrs.png" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+          <img src="./img/jordan4 gold.JPEG" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+            <img src="./img/design3.png" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+            <img src="./img/jordan4.JPEG" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+          <img src="./img/dunks.JPEG" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+          <h1 class="text-3xl dark:text-white">Heb je een vraag?</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Ik sta open voor nieuwe mogelijkheden en samenwerkingen! Neem gerust contact met me op voor vragen, projecten of samenwerkingsvoorstellen.
+          </p>
+        </div>
+        <!-- bottom -->
+        <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="text"
+            placeholder="Naam"
+          />
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="email"
+            placeholder="Email"
+          />
+          <textarea
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            cols="30"
+            rows="10"
+            placeholder="Bericht..."
+          ></textarea>
+          <button
+            class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer"
+          >
+            verzenden
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="w-full bg-black">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="text-2xl font-bold text-white">Volg mij op social media!</span>
+        </div>
+        <div class="flex gap-2">
+          <a href="https://github.com/Muminsuleiman" target="_blank" ><img class="w-10 cursor-pointer" src="./img/github.png" alt=""/></a>
+          <a href="https://www.instagram.com/_.meij_/" target="_blank" ><img class="w-10 cursor-pointer" src="./img/instagram.png" alt="" /></a>
+          <a href="https://www.linkedin.com/in/mumin-suleiman-618859276/" target="_blank" ><img class="w-10 cursor-pointer" src="./img/linkedin.png" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+   <script src="app.js"></script>
+</body>
+</html>
+<!-- Additional HTML code goes here -->
